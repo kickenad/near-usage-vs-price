@@ -144,6 +144,162 @@
  },
  "intents_near_lifetime_txns": 156782506,
  "rpc_crosscheck": {
+  "2024-06-15": {
+   "sampled_blocks": 60,
+   "blocks_in_day": 72693,
+   "rpc_signed_txns_per_block": 101.75,
+   "rpc_est_signed_txns_day": 7396513.0,
+   "indexer_txns_day": 7023231.0,
+   "indexer_over_rpc": 0.95,
+   "sampled_txns": 6105,
+   "distinct_receivers": 2331,
+   "top_receivers": [
+    {
+     "account": "game.hot.tg",
+     "share_pct": 20.4
+    },
+    {
+     "account": "earn.kaiching",
+     "share_pct": 17.6
+    },
+    {
+     "account": "token.sweat",
+     "share_pct": 5.5
+    },
+    {
+     "account": "signin2.sendercommunity.near",
+     "share_pct": 5.3
+    },
+    {
+     "account": "wallet.kaiching",
+     "share_pct": 2.7
+    },
+    {
+     "account": "claim.sweat",
+     "share_pct": 2.0
+    },
+    {
+     "account": "aa-harvest-moon.near",
+     "share_pct": 1.9
+    },
+    {
+     "account": "app.nearcrowd.near",
+     "share_pct": 0.9
+    }
+   ],
+   "top_parents": [
+    {
+     "parent": "hot.tg",
+     "share_pct": 22.7
+    },
+    {
+     "parent": "earn.kaiching",
+     "share_pct": 17.6
+    },
+    {
+     "parent": "users.kaiching",
+     "share_pct": 6.3
+    },
+    {
+     "parent": "token.sweat",
+     "share_pct": 5.5
+    },
+    {
+     "parent": "sendercommunity.near",
+     "share_pct": 5.3
+    },
+    {
+     "parent": "implicit accounts (64-hex)",
+     "share_pct": 4.6
+    },
+    {
+     "parent": "wallet.kaiching",
+     "share_pct": 2.7
+    },
+    {
+     "parent": "claim.sweat",
+     "share_pct": 2.0
+    }
+   ]
+  },
+  "2025-06-15": {
+   "sampled_blocks": 60,
+   "blocks_in_day": 141881,
+   "rpc_signed_txns_per_block": 35.88,
+   "rpc_est_signed_txns_day": 5091163.0,
+   "indexer_txns_day": 4904516.0,
+   "indexer_over_rpc": 0.96,
+   "sampled_txns": 2153,
+   "distinct_receivers": 1545,
+   "top_receivers": [
+    {
+     "account": "wallet.kaiching",
+     "share_pct": 14.3
+    },
+    {
+     "account": "game.hot.tg",
+     "share_pct": 10.5
+    },
+    {
+     "account": "spin.sweat",
+     "share_pct": 1.7
+    },
+    {
+     "account": "learn.sweat",
+     "share_pct": 0.5
+    },
+    {
+     "account": "aa-harvest-moon.near",
+     "share_pct": 0.4
+    },
+    {
+     "account": "v2.ref-finance.near",
+     "share_pct": 0.2
+    },
+    {
+     "account": "josim6538.tg",
+     "share_pct": 0.2
+    },
+    {
+     "account": "aurora",
+     "share_pct": 0.2
+    }
+   ],
+   "top_parents": [
+    {
+     "parent": "users.kaiching",
+     "share_pct": 42.2
+    },
+    {
+     "parent": "wallet.kaiching",
+     "share_pct": 14.3
+    },
+    {
+     "parent": "hot.tg",
+     "share_pct": 10.7
+    },
+    {
+     "parent": "implicit accounts (64-hex)",
+     "share_pct": 6.3
+    },
+    {
+     "parent": "spin.sweat",
+     "share_pct": 1.7
+    },
+    {
+     "parent": "learn.sweat",
+     "share_pct": 0.5
+    },
+    {
+     "parent": "poolv1.near",
+     "share_pct": 0.5
+    },
+    {
+     "parent": "aa-harvest-moon.near",
+     "share_pct": 0.4
+    }
+   ]
+  },
   "2026-03-25": {
    "sampled_blocks": 60,
    "blocks_in_day": 144313,
