@@ -34,7 +34,7 @@ So the largest usage collapse of 2026 was a single app switching off its on-chai
 ## Evidence against (what weakens the claim)
 
 1. **Gas is the honest usage measure, and it does correlate somewhat with price.** In 2025–2026, price vs gas used is 0.32, the highest of any pair we measured. Raw transaction and account counts are noisy (bots, airdrops, relayers). Measured by compute used, usage and price are more linked than the headline counts suggest.
-2. **Indexer definitions.** "Active accounts" and "transactions" are NearBlocks' definitions. A methodology change could look like a usage collapse. Our raw-block samples agree with the indexer's daily transaction counts: the indexer-to-raw ratio was 1.02 on 2026-03-25, 1.02 on 2026-04-10 and 1.13 on 2026-11-01. But these are samples (180 transactions on the quietest day), not full recounts, and we did not verify "active accounts" at all.
+2. **Indexer definitions.** "Active accounts" and "transactions" are NearBlocks' definitions. A methodology change could look like a usage collapse. Our raw-block samples agree with the indexer's daily transaction counts: the indexer-to-raw ratio was 1.02 on 2026-03-25, 1.02 on 2026-04-10 1.13 on 2026-11-01, and 0.95 and 0.96 on 2024-06-15 and 2025-06-15. But these are samples (180 transactions on the quietest day), not full recounts, and we did not verify "active accounts" at all.
 3. **Activity may have moved, not vanished.** NEAR Intents (`intents.near`) has 156,782,506 lifetime transactions. Intents batch many user actions into one transaction, so per-transaction counts understate cross-chain usage settled on NEAR.
 4. **Correlation of changes over ~monthly windows** misses lagged effects (usage today, price next quarter). We did not test lags.
 
