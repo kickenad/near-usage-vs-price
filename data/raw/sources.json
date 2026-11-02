@@ -1,0 +1,10 @@
+{
+ "charts.json": {
+  "url": "https://api.nearblocks.io/v1/charts",
+  "fetched_at": "2026-11-02T22:27:43.130440+00:00"
+ },
+ "intents_txn_count.json": {
+  "url": "https://api.nearblocks.io/v1/account/intents.near/txns/count",
+  "fetched_at": "2026-11-02T22:27:43.422905+00:00"
+ }
+}

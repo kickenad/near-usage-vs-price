@@ -1,0 +1,563 @@
+{
+ "blocks_in_day": 149854,
+ "date": "2026-11-01",
+ "fetched_at": "2026-11-02T22:37:40.353681+00:00",
+ "first_height": 222491356,
+ "next_day_first_height": 222641210,
+ "sampled_blocks": [
+  {
+   "by_receiver": {},
+   "height": 222491356,
+   "timestamp": 1793491200175647275,
+   "txns": 0
+  },
+  {
+   "by_receiver": {
+    "1200419065193664567.abound.near": 1,
+    "4894493297311836413.abound.near": 1
+   },
+   "height": 222493853,
+   "timestamp": 1793492635344971425,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1,
+    "omft.near": 2,
+    "v1.signer": 1
+   },
+   "height": 222496351,
+   "timestamp": 1793494082481689458,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "aggregate-oracle.near": 1,
+    "intents.near": 1,
+    "sssahihai.near": 1
+   },
+   "height": 222498848,
+   "timestamp": 1793495528067554922,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1,
+    "wrap.near": 1
+   },
+   "height": 222501346,
+   "timestamp": 1793496955332454635,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "intents.near": 2
+   },
+   "height": 222503843,
+   "timestamp": 1793498385288701922,
+   "txns": 2
+  },
+  {
+   "by_receiver": {},
+   "height": 222506341,
+   "timestamp": 1793499805328355270,
+   "txns": 0
+  },
+  {
+   "by_receiver": {},
+   "height": 222508838,
+   "timestamp": 1793501244068557840,
+   "txns": 0
+  },
+  {
+   "by_receiver": {
+    "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1": 2,
+    "v2.ref-finance.near": 2
+   },
+   "height": 222511336,
+   "timestamp": 1793502708397508592,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 2,
+    "intents.near": 1,
+    "jars-oracle.sweat": 1,
+    "murugesan1984.tg": 1,
+    "omft.near": 1
+   },
+   "height": 222513834,
+   "timestamp": 1793504185363916055,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "bc5659c6992e492796fa39c58a8055c845b5b4a862bb8f559b208b2501fffd27": 1,
+    "cc7db3875cd9cc416392f8e2a0e5e607f84ae2708cf88db82f90a09980e4cc20": 1
+   },
+   "height": 222516331,
+   "timestamp": 1793505634922012062,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "109aa7430cc137caae501e5b4076ea93fba39015ecdbe152953e4ca258dece0c": 1,
+    "6868612024.tg": 1,
+    "a9d93224595fbdd01195bb7f40eec16e4141477b77f898fad63213a331ad95ad": 1,
+    "cc7db3875cd9cc416392f8e2a0e5e607f84ae2708cf88db82f90a09980e4cc20": 1,
+    "rakibhasan437-hot.tg": 1,
+    "v1.signer": 1
+   },
+   "height": 222518829,
+   "timestamp": 1793507071391746512,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "77e2dddea481a9e9bffa115ec193b160d8f1b0502612e3283767e919fef15c5f": 1,
+    "hridoykhulna.tg": 1
+   },
+   "height": 222521326,
+   "timestamp": 1793508508756710794,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 1
+   },
+   "height": 222523824,
+   "timestamp": 1793509939501856486,
+   "txns": 1
+  },
+  {
+   "by_receiver": {},
+   "height": 222526321,
+   "timestamp": 1793511369988178256,
+   "txns": 0
+  },
+  {
+   "by_receiver": {
+    "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1": 2,
+    "4142e8b5f3ffcad8bce2cdec9dac3300bf61b21cbafc5c3e39116260d2483c3a": 1,
+    "game.hot.tg": 1,
+    "v1.signer": 1
+   },
+   "height": 222528819,
+   "timestamp": 1793512794823629181,
+   "txns": 5
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1,
+    "omft.near": 1,
+    "omni.bridge.near": 1
+   },
+   "height": 222531317,
+   "timestamp": 1793514232845126388,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "5cf1c63054a051ac66ca1f5dbb179479c61f28d862a7fc9ed546cb098dc13cf6": 1,
+    "game.hot.tg": 1
+   },
+   "height": 222533814,
+   "timestamp": 1793515653781711068,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1
+   },
+   "height": 222536312,
+   "timestamp": 1793517095591268771,
+   "txns": 1
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 3,
+    "intents.near": 1,
+    "spin.sweat": 2
+   },
+   "height": 222538809,
+   "timestamp": 1793518541368071527,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "omft.near": 1,
+    "sweat_welcome.near": 1,
+    "v1.signer": 1,
+    "v2.ref-finance.near": 1
+   },
+   "height": 222541307,
+   "timestamp": 1793519961077744362,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "c7ac6ddc67c8e02b3ad9c756d7405563348163f5a6129f88274efd54c934485a": 1,
+    "v1.signer": 1
+   },
+   "height": 222543804,
+   "timestamp": 1793521387261282190,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "bridge-refuel.hot.tg": 1,
+    "game.hot.tg": 1,
+    "maryrosemarquezeispi240.tg": 1,
+    "rayemagginsonqztoe257.tg": 1,
+    "roscoemcisaacjtpyq231.tg": 1,
+    "v2.ref-finance.near": 1
+   },
+   "height": 222546302,
+   "timestamp": 1793522829112575897,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "jars-oracle.sweat": 1,
+    "spin.sweat": 2
+   },
+   "height": 222548800,
+   "timestamp": 1793524266756324006,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "2722f8aecfb4342207bf824219f3bc54ef41342b998b7910d8d96bfbbf67c6a9": 1,
+    "btc-connector.bridge.near": 6,
+    "game.hot.tg": 1,
+    "sweat_welcome.near": 1
+   },
+   "height": 222551297,
+   "timestamp": 1793525821625174473,
+   "txns": 9
+  },
+  {
+   "by_receiver": {
+    "aurora": 1,
+    "game.hot.tg": 1,
+    "intents.near": 2,
+    "jars-oracle.sweat": 1
+   },
+   "height": 222553795,
+   "timestamp": 1793527255337913929,
+   "txns": 5
+  },
+  {
+   "by_receiver": {
+    "e4124f392aaa7630f4ce30dd92d286af6ca66325158d3eb8abe0dbd96a1d15ae": 1
+   },
+   "height": 222556292,
+   "timestamp": 1793528682017227137,
+   "txns": 1
+  },
+  {
+   "by_receiver": {
+    "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1": 1,
+    "intents.near": 1,
+    "jars-oracle.sweat": 1,
+    "v2.ref-finance.near": 1
+   },
+   "height": 222558790,
+   "timestamp": 1793530118391197048,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1,
+    "qcat-3.nearlytrade.near": 1
+   },
+   "height": 222561287,
+   "timestamp": 1793531545907538800,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 1,
+    "intents.near": 1
+   },
+   "height": 222563785,
+   "timestamp": 1793532973471243820,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "27a93160c51ee6360ae382e110601f46409a92fe7d273801fdea5a213688bc5c": 1,
+    "safeviper1502.near": 1
+   },
+   "height": 222566283,
+   "timestamp": 1793534402028731417,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "btc-connector.bridge.near": 2,
+    "sorrydome5520.near": 1,
+    "v1.signer": 1,
+    "v2.ref-finance.near": 1
+   },
+   "height": 222568780,
+   "timestamp": 1793535837848939575,
+   "txns": 5
+  },
+  {
+   "by_receiver": {},
+   "height": 222571278,
+   "timestamp": 1793537261174687405,
+   "txns": 0
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 1,
+    "intents.near": 1,
+    "spin.sweat": 4
+   },
+   "height": 222573775,
+   "timestamp": 1793538692941525810,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1": 2,
+    "game.hot.tg": 1
+   },
+   "height": 222576273,
+   "timestamp": 1793540136199036295,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 2,
+    "spin.sweat": 1
+   },
+   "height": 222578770,
+   "timestamp": 1793541577904723744,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "1c85c91f234a06963c06b601a7d5d8f4bc2bbba6715b4825978409f3764a08fa": 1,
+    "92ff3ab5b655b6921ee3068026dd893daf25cc83d1463224cd48f973d2e7e140": 1,
+    "game.hot.tg": 1,
+    "intents.near": 2,
+    "jars-oracle.sweat": 1
+   },
+   "height": 222581268,
+   "timestamp": 1793543002832802211,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "intents.near": 3
+   },
+   "height": 222583765,
+   "timestamp": 1793544435277250918,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 3,
+    "intents.near": 1,
+    "lst100.ref-dev-team.near": 1,
+    "wrap.near": 1
+   },
+   "height": 222586263,
+   "timestamp": 1793545866759891677,
+   "txns": 6
+  },
+  {
+   "by_receiver": {
+    "sweat_welcome.near": 1
+   },
+   "height": 222588761,
+   "timestamp": 1793547299535323460,
+   "txns": 1
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 2,
+    "intents.near": 1,
+    "omni.bridge.near": 1
+   },
+   "height": 222591258,
+   "timestamp": 1793548722601421407,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1
+   },
+   "height": 222593756,
+   "timestamp": 1793550155310952914,
+   "txns": 1
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 2,
+    "intents.near": 2,
+    "v1.signer": 1,
+    "vastdish9440.near": 1,
+    "yuplandshop.mintbase1.near": 1
+   },
+   "height": 222596253,
+   "timestamp": 1793551617602853443,
+   "txns": 7
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1,
+    "jars-oracle.sweat": 1,
+    "spin.sweat": 1
+   },
+   "height": 222598751,
+   "timestamp": 1793553089733069695,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "8b05b777a514fcce4b8a589dcebbc1a4355e0dd4bb39086ae28d1eaa842e44f2": 1,
+    "fast-auth.near": 1,
+    "i6683165693.tg": 1,
+    "intents.near": 1,
+    "v2_1.omni.hot.tg": 1
+   },
+   "height": 222601248,
+   "timestamp": 1793554553411734185,
+   "txns": 5
+  },
+  {
+   "by_receiver": {},
+   "height": 222603746,
+   "timestamp": 1793556020238646028,
+   "txns": 0
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 1,
+    "intents.near": 1,
+    "jars-oracle.sweat": 1,
+    "nearlytrade.near": 1
+   },
+   "height": 222606244,
+   "timestamp": 1793557497931193500,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "400694ad8db79e6066c53e9d1a0cd8fe1273b34636626b4a1c1c52a48e056b23": 1,
+    "c82cf2c35377dc16af60aea046fe159a44f1d14cc57bf67f7964f3a1bb15335d": 1
+   },
+   "height": 222608741,
+   "timestamp": 1793558959250020019,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "omft.near": 1,
+    "v2.ref-finance.near": 3
+   },
+   "height": 222611239,
+   "timestamp": 1793560417988370673,
+   "txns": 4
+  },
+  {
+   "by_receiver": {
+    "jars-oracle.sweat": 3
+   },
+   "height": 222613736,
+   "timestamp": 1793561872495295807,
+   "txns": 3
+  },
+  {
+   "by_receiver": {
+    "0895f3b6705519918ee0f3ebb7f9eba186a69ba8bd74c7402b305f160c95d8c8": 1,
+    "oracle.sweat": 5,
+    "v2.ref-finance.near": 1
+   },
+   "height": 222616234,
+   "timestamp": 1793563329051199038,
+   "txns": 7
+  },
+  {
+   "by_receiver": {
+    "hafizur11.near": 1,
+    "intents.near": 1
+   },
+   "height": 222618731,
+   "timestamp": 1793564758044280170,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "nearlytrade.near": 1
+   },
+   "height": 222621229,
+   "timestamp": 1793566183678582359,
+   "txns": 1
+  },
+  {
+   "by_receiver": {
+    "862c2a1718ad6fcbebd75d7924be21d3e1611de4501fb51b13e31031bfa0c0ca": 1,
+    "intents.near": 1
+   },
+   "height": 222623727,
+   "timestamp": 1793567613468367774,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "intents.near": 1,
+    "jars-oracle.sweat": 3,
+    "meta-pool.near": 1
+   },
+   "height": 222626224,
+   "timestamp": 1793569044274753844,
+   "txns": 5
+  },
+  {
+   "by_receiver": {
+    "treats.sharddog.near": 1
+   },
+   "height": 222628722,
+   "timestamp": 1793570474265884079,
+   "txns": 1
+  },
+  {
+   "by_receiver": {
+    "game.hot.tg": 1,
+    "tallent.near": 1
+   },
+   "height": 222631219,
+   "timestamp": 1793571898045440480,
+   "txns": 2
+  },
+  {
+   "by_receiver": {
+    "chiedoziefernando.near": 1
+   },
+   "height": 222633717,
+   "timestamp": 1793573320883911021,
+   "txns": 1
+  },
+  {
+   "by_receiver": {},
+   "height": 222636214,
+   "timestamp": 1793574741463145222,
+   "txns": 0
+  },
+  {
+   "by_receiver": {
+    "jars-oracle.sweat": 1,
+    "sweat_welcome.near": 1
+   },
+   "height": 222638712,
+   "timestamp": 1793576169936907843,
+   "txns": 2
+  }
+ ],
+ "source": "https://mainnet.neardata.xyz/v0/block/{}"
+}
