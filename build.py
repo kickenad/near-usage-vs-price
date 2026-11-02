@@ -67,8 +67,8 @@ def main():
            for k, v in M["rpc_crosscheck"].items()]
     from markdown_it import MarkdownIt
     body = MarkdownIt("commonmark").enable("table").render(thesis_md.split("\n", 1)[1] if thesis_md.startswith("<!--") else thesis_md)
-    c1 = chart_index().to_html(full_html=False, include_plotlyjs="cdn")
-    c2 = chart_value().to_html(full_html=False, include_plotlyjs=False)
+    c1 = chart_index().to_html(full_html=False, include_plotlyjs="cdn", div_id="chart-index")
+    c2 = chart_value().to_html(full_html=False, include_plotlyjs=False, div_id="chart-value")
     shocks = table(M["usage_shocks"], ["date", "txns_pct", "gas_pct", "accounts_pct", "price_pct"])
     ctab = table(corr, ["period", "txns", "active_accounts", "gas_used", "weeks"])
     rtab = table(rpc, ["date", "sampled_blocks", "rpc_est_signed_txns_day", "indexer_txns_day", "indexer_over_rpc", "top app (share of sampled txns)"]) if rpc else "<p>No RPC samples in this snapshot.</p>"

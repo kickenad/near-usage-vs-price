@@ -10,4 +10,4 @@ jobs:
       - run: python -m venv .venv && .venv/bin/pip install -r requirements.txt
       - run: make all
       - name: Rebuilt outputs must match the committed ones
-        run: git diff --exit-code -- THESIS.md data/derived/metrics.json
+        run: git diff --exit-code -- THESIS.md data/derived/metrics.json site/index.html

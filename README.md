@@ -8,7 +8,8 @@ Short answer from the data: **no, not in 2026.** Since January the NEAR price ha
 
 ```bash
 make setup   # python3 -m venv .venv && pip install -r requirements.txt
-make all     # verify raw-data hashes → metrics.json → THESIS.md + site/index.html → tests
+make all     # verify raw-data hashes → metrics.json → THESIS.md + site/index.html → verify.py → tests
+make verify-online   # optional: compare the snapshot with the live API and re-fetch the sampled blocks
 ```
 
 Open `site/index.html` in a browser. `make refresh` re-downloads the data, which changes the snapshot and needs network access.
@@ -21,7 +22,8 @@ Open `site/index.html` in a browser. `make refresh` re-downloads the data, which
 | 2 | `sample_rpc.py` | Independent check: samples raw blocks (FastNEAR neardata archive) on chosen days and counts signed transactions per receiver contract |
 | 3 | `metrics.py` | Computes every quoted number into `data/derived/metrics.json` |
 | 4 | `build.py` | Fills `THESIS.tmpl.md` placeholders from metrics.json and fails on unknown keys. Builds the Plotly dashboard |
-| 5 | `tests/` | (a) raw files match the manifest, (b) **every number in THESIS.md exists in metrics.json**, (c) THESIS.md is not stale |
+| 5 | `verify.py` | Second, independent implementation (Python stdlib only, no pandas) that recomputes every number in metrics.json from `data/raw/` and fails on any mismatch (773 checks with `--online`) |
+| 6 | `tests/` | (a) raw files match the manifest, (b) **every number in THESIS.md exists in metrics.json**, (c) THESIS.md is not stale, (d) verify.py agrees and catches a tampered number |
 
 CI (`.github/workflows/rebuild.yml`) rebuilds from the snapshot and fails if the outputs differ from what's committed.
 

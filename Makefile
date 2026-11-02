@@ -1,9 +1,10 @@
 PY ?= .venv/bin/python
-.PHONY: all setup refresh verify test clean
+.PHONY: all setup refresh verify test clean verify-online
 
 all: verify
 	$(PY) metrics.py > /dev/null
 	$(PY) build.py
+	$(PY) verify.py
 	$(PY) -m pytest -q
 
 setup:
@@ -23,3 +24,7 @@ test:
 
 clean:
 	rm -rf data/derived site THESIS.md
+
+# Network: compare the frozen snapshot with the live NearBlocks API and neardata.xyz blocks.
+verify-online:
+	$(PY) verify.py --online
