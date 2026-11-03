@@ -12,7 +12,7 @@ make all     # verify raw-data hashes → metrics.json → THESIS.md + site/inde
 make verify-online   # optional: compare the snapshot with the live API and re-fetch the sampled blocks
 ```
 
-Open `site/index.html` in a browser. `make refresh` re-downloads the data, which changes the snapshot and needs network access.
+Open `site/index.html` in a browser. `make refresh` re-downloads the data, which changes the snapshot and needs network access. `scripts/publish-pages.sh` publishes site/ and THESIS.md to GitHub Pages (gh-pages branch).
 
 ## How it works
 
