@@ -39,7 +39,7 @@ These are listed honestly in THESIS.md under "Evidence against". The main ones: 
 
 ## Other entry by the same author
 
-Per hackathon rule Q-015, my other project is **Rust & Barter** (track `games`), a market-town trading game on NEAR testnet: _repo link TBD_.
+Per hackathon rule Q-015, my other (and only other) entry is **Rust & Barter** (track `games`), a market-town trading game on NEAR testnet: _repo link TBD_.
 
 ## AI and library disclosure (rule Q-005)
 
