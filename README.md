@@ -1,6 +1,6 @@
 # Usage vs Price: is NEAR's on-chain usage driving its token price?
 
-**NEAR Hackathon entry, track: `thesis`.** Live page: `site/index.html` (GitHub Pages link: _TBD_). Claim, evidence for and against, and what would change our mind: **[THESIS.md](THESIS.md)**.
+**NEAR Hackathon entry, track: `thesis`.** Live page: **https://kickenad.github.io/near-usage-vs-price/** (built from `site/index.html`). Claim, evidence for and against, and what would change our mind: **[THESIS.md](THESIS.md)**.
 
 Short answer from the data: **no, not in 2026.** Since January the NEAR price has roughly tripled, while transactions, active accounts and gas used have all fallen sharply. Every number is computed from a frozen public-data snapshot that you can rebuild with one command.
 
@@ -39,7 +39,7 @@ These are listed honestly in THESIS.md under "Evidence against". The main ones: 
 
 ## Other entry by the same author
 
-Per hackathon rule Q-015, my other (and only other) entry is **Rust & Barter** (track `games`), a market-town trading game on NEAR testnet: _repo link TBD_.
+Per hackathon rule Q-015, my other (and only other) entry is **Rust & Barter** (track `games`), a market-town trading game on NEAR testnet: https://github.com/kickenad/rust-and-barter, play at https://kickenad.github.io/rust-and-barter/.
 
 ## AI and library disclosure (rule Q-005)
 
