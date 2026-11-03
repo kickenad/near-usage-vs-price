@@ -72,7 +72,7 @@ def main():
     shocks = table(M["usage_shocks"], ["date", "txns_pct", "gas_pct", "accounts_pct", "price_pct"])
     ctab = table(corr, ["period", "txns", "active_accounts", "gas_used", "weeks"])
     rtab = table(rpc, ["date", "sampled_blocks", "rpc_est_signed_txns_day", "indexer_txns_day", "indexer_over_rpc", "top app (share of sampled txns)"]) if rpc else "<p>No RPC samples in this snapshot.</p>"
-    html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
 <title>Usage vs Price: NEAR</title><style>
 body{{font:16px/1.55 system-ui,sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;color:#111}}
 table{{border-collapse:collapse;margin:1rem 0;font-size:14px}}td,th{{border:1px solid #ccc;padding:4px 8px;text-align:right}}
